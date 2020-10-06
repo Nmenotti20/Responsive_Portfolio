@@ -1,0 +1,10 @@
+.card {   
+float: left;
+padding: 20px;
+margin: 20px;
+}
+
+h1, h2, p {
+    margin: 20px;
+}
+
