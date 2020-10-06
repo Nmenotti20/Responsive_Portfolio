@@ -1,17 +1,22 @@
+
+/*BACKGROUND IMAGE*/
 body {
     background: url(https://viewbug_com.s3.amazonaws.com/media/images/contests/contest6917_banner.png)
   }
 
+/*STYLING FOR ABOUT ME CARD*/ 
 .card {       
 float: left;
 padding: 20px;
 margin: 20px;
 }
 
+/*MOVES CONTENT OVER TO THE RIGHT FROM LEFT EDGE JUST A SMIDGE SO IT IS NOT FLUSH AGAINST THE LEFT PAGE BOARDER*/
 h1, p {
     margin: 20px;
 }
 
+/*ADD A TOP MARGIN TO THE CONTACT FORM*/
 .form-group {
 margin-top: 20px;  
 }
