@@ -1,19 +1,43 @@
 
-/*BACKGROUND IMAGE*/
+/*BACKGROUND IMAGE OF SURF*/
 body {
     background: url(https://viewbug_com.s3.amazonaws.com/media/images/contests/contest6917_banner.png)
   }
 
 /*STYLING FOR ABOUT ME CARD*/ 
-.card {       
+.card {   
+background-color: rgb(150, 41, 14);
+color: white;
+font-size: 18;     
 float: left;
 padding: 20px;
 margin: 20px;
 }
 
+/*STYLES THE THUBNAILS IN THE PORTFOLIO TO DEEP RED BACKGROUND COLOR*/
+.img-thumbnail {
+background-color: rgb(150, 41, 14);
+}
+
+/*STYLE FOR CARD CONTENT WHITE TEXT WITH BOLD FONT*/
+.form-group {
+  color: white;
+  font-weight: bold;
+}
+
 /*MOVES CONTENT OVER TO THE RIGHT FROM LEFT EDGE JUST A SMIDGE SO IT IS NOT FLUSH AGAINST THE LEFT PAGE BOARDER*/
-h1, p {
+h1 {
+  color: white;
     margin: 20px;
+}
+
+/*STYLE FOR PARAGRAPHS TO WHITE TEXT WITH FINT SIZE, ALIGNMENT, AND MARGIN*/
+p {
+  color: white;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+
 }
 
 /*ADD A TOP MARGIN TO THE CONTACT FORM*/
