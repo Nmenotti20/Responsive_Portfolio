@@ -1,9 +1,9 @@
-Nmenotti20 / Responsive_Portfolio
+# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 CSS and Bootstrap - Responsive Portfolio  - by Nick Menotti
 
 
-
+url: https://nmenotti20.github.io/Responsive_Portfolio/
 
 
 
@@ -57,6 +57,15 @@ https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmng
 
 Voice Reader Extension for Chrome:
 https://chrome.google.com/webstore/detail/chromevox-classic-extensi/kgejglhpjiefppelpmljglcjbhoiplfn
+
+
+
+
+
+
+
+
+
 
 LICENSE:
 
