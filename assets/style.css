@@ -6,12 +6,11 @@ body {
 
 /*STYLING FOR ABOUT ME CARD*/ 
 .card {   
+align-content: center;  
 background-color: rgb(150, 41, 14);
 color: white;
 font-size: 18;     
-float: left;
 padding: 10px;
-margin: 20px;
 }
 
 /*STYLES THE THUBNAILS IN THE PORTFOLIO TO DEEP RED BACKGROUND COLOR*/
