@@ -23,7 +23,7 @@
 <body>
 
      <!--BOOTSTRAP NAVBAR LINKS TO PORTFOLIO, ABOUT & CONTACT PAGES-->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
         <a class="navbar-brand" href="./index.html">Nick Menotti</a>
         <div class="navbar-nav ml-auto">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,59 +57,65 @@
     <h1>Portfolio</h1>
 
 
-    <!--4 X PHOTOS EQUAL SIZE SIDE BY SIDE SPANNING ACCROSS THE PAGE FROM LEFT TO RIGHT (TOTAL = 12)-->
-    <div class="row">
-        <div class="col-md-3">  
-
-        <img src="./assets/Password_Generator_demo.jpg" alt="A photo demonstrating my 'Password Generator' project" class="img-thumbnail"/>
-        
-        <br><br>
-        <!--Button for link to my GitHub Profile-->
-        <a href="https://github.com/Nmenotti20/password_generator.git" class="btn btn-primary">Click to view this project on GitHub.</a>
-      
-        <br><br>
-        <!--Button for link to my live deployed URL-->
-        <a href="https://nmenotti20.github.io/password_generator" class="btn btn-primary">Click to go to the live deployed URL.</a>
-
-      </div>
-        
-        <div class="col-md-3">  
-        <img src="./assets/OUTDoorsy_site_example_top.jpg" alt="A photo demonstrating my 'OUTDoorsy' group project" class="img-thumbnail"/>
-        
-        <br><br>
-        <!--Button for link to my GitHub Profile-->
-        <a href="https://github.com/Jruuuu/OUTDoorsy.git" class="btn btn-primary">Click to view this project on GitHub.</a>
-      
-        <br><br>
-        <!--Button for link to my live deployed URL-->
-        <a href="https://jruuuu.github.io/OUTDoorsy" class="btn btn-primary">Click to go to the live deployed URL.</a>
-
-      </div>
-
-        <div class="col-md-3">  
-        <img src="./assets/Code_Refactor_demo.jpg" alt="A photo demonstating my 'Code Refactor' project" class="img-thumbnail"/>
-        
-        <br><br>
-        <!--Button for link to my GitHub Profile-->
-        <a href="https://github.com/Nmenotti20/01-HTML-CSS-Git-Code-Refactor.git" class="btn btn-primary">Click to view this project on GitHub.</a>
-
-        <br><br>
-        <!--Button for link to my live deployed URL-->
-        <a href="https://nmenotti20.github.io/01-HTML-CSS-Git-Code-Refactor" class="btn btn-primary">Click to go to the live deployed URL.</a>
-      
-      </div>
-
-        <div class="col-md-3">  
+    <!--Bootstrap Card-group-->
+    <div class="card-deck">
+      <div class="card">
+        <img src="./assets/Password_Generator_demo.jpg" class="card-img-top" alt="A photo demonstrating my 'Password Generator' project">
+        <div class="card-body">
+          <h5 class="card-title">Password Generator Project</h5>
+          <p class="card-text">My Password Generator project uses JavaScript to generate a random password.</p>
         </div>
+        <div class="card-footer">
 
-        <div class="col-md-3">  
-        </div>
-
-
-    
-
-
+          <!--Button for link to my GitHub Profile-->
+          <a href="https://github.com/Nmenotti20/password_generator.git" class="btn btn-primary">Click to view my Password Generator project on GitHub.</a>
         
+          <br><br>
+          <!--Button for link to my live deployed URL-->
+          <a href="https://nmenotti20.github.io/password_generator" class="btn btn-primary">Click to go to the Password Generator project live deployed URL.</a>
+
+        </div>
+      </div>
+
+
+      <div class="card">
+        <img src="./assets/OUTDoorsy_site_example_top.jpg" class="card-img-top" alt="A photo demonstrating my 'OUTDoorsy' group project">
+        <div class="card-body">
+          <h5 class="card-title">OUTDoorsy Project</h5>
+          <p class="card-text">My OUTDoorsy project aims to link in third party APIs to find local hiking trails, as searched by city name, along with local weather, and map to the trailhead while saving the cities searched to local storage and maintaining a list of historical searches.</p>
+        </div>
+        <div class="card-footer">
+
+          <!--Button for link to my GitHub Profile-->
+          <a href="https://github.com/Jruuuu/OUTDoorsy.git" class="btn btn-primary">Click to view my OUTDoorsy project on GitHub.</a>
+        
+          <br><br>
+          <!--Button for link to my live deployed URL-->
+          <a href="https://jruuuu.github.io/OUTDoorsy" class="btn btn-primary">Click to go to the OUTDoorsy project live deployed URL.</a>
+
+
+        </div>
+      </div>
+     
+     
+      <div class="card">
+        <img src="./assets/Code_Refactor_demo.jpg" class="card-img-top" alt="A photo demonstating my 'Code Refactor' project">
+        <div class="card-body">
+          <h5 class="card-title">Code Refactor Project</h5>
+          <p class="card-text">The goal of my Code Refactor project was to refactor a code for a client to be able to make the website accessible.</p>
+        </div>
+        <div class="card-footer">
+
+          <a href="https://github.com/Nmenotti20/01-HTML-CSS-Git-Code-Refactor.git" class="btn btn-primary">Click to view my Code Refactor project on GitHub.</a>
+
+          <br><br>
+          <!--Button for link to my live deployed URL-->
+          <a href="https://nmenotti20.github.io/01-HTML-CSS-Git-Code-Refactor" class="btn btn-primary">Click to go to the Code Refactor project live deployed URL.</a>
+  
+        </div>
+      </div>
+    </div>
+      
     </div>
 </div>
     
