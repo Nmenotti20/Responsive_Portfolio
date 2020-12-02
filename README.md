@@ -28,7 +28,11 @@ Link to GitHub Pages Published url: <https://nmenotti20.github.io/Responsive_Por
 
 Bootstrap: <https://getbootstrap.com>
 
-Tutorials: <https://www.w3schools.com>
+Tutorials: <https://www.w3schools.com>, <https://www.youtube.com/watch?v=tGEi95Z7duw>
+
+Formspree email form: <https://formspree.io/forms/xwkwnypz/integration>
+
+
 
 ##### 4. License
 
