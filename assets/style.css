@@ -4,10 +4,9 @@ body {
     background: url(https://viewbug_com.s3.amazonaws.com/media/images/contests/contest6917_banner.png)
   }
 
-
-
 /*STYLING FOR ABOUT ME CARD*/ 
 .card {   
+  
 background-color: rgb(150, 41, 14);
 color: white;
 font-size: 18; 

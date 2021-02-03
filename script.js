@@ -8,7 +8,7 @@ $('#contact-form').submit(function(e)    {
         alertify.error('Please double check your form entries for accruacy!')
     } else {
         $.ajax({
-            url: "https://formspree.io/nmenotti@cox.net",
+            url: "https://formspree.io/f/xwkwnypz",
             method: "POST",
             data: $(this).serialize(),
             dataType: "json"    
